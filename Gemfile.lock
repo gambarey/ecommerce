@@ -187,6 +187,9 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
+    kaminari-i18n (0.5.0)
+      kaminari
+      rails
     kt-paperclip (7.2.2)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
@@ -272,6 +275,9 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails-i18n (7.0.9)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 8)
     railties (7.0.8.1)
       actionpack (= 7.0.8.1)
       activesupport (= 7.0.8.1)
@@ -292,6 +298,9 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.2.6)
+    routing-filter (0.7.0)
+      actionpack (>= 6.1)
+      activesupport (>= 6.1)
     rspec-activemodel-mocks (1.1.0)
       activemodel (>= 3.0)
       activesupport (>= 3.0)
@@ -423,6 +432,9 @@ GEM
       ransack (~> 4.0)
       sprockets-rails
       state_machines-activerecord (~> 0.6)
+    solidus_i18n (2.2.0)
+      solidus_core (>= 1.1, < 5)
+      solidus_support (~> 0.4)
     solidus_sample (4.3.3)
       solidus_core (= 4.3.3)
     solidus_stripe (5.0.2)
@@ -498,10 +510,13 @@ DEPENDENCIES
   ffaker (~> 2.13)
   importmap-rails
   jbuilder
+  kaminari-i18n
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.1)
   rails-controller-testing (~> 1.0.5)
+  rails-i18n
   responders
+  routing-filter
   rspec-activemodel-mocks (~> 1.1.0)
   rspec-rails
   rubocop (~> 1.0)
@@ -512,6 +527,7 @@ DEPENDENCIES
   solidus (~> 4.3)
   solidus_admin (>= 0.2)
   solidus_auth_devise (~> 2.5)
+  solidus_i18n
   solidus_stripe (~> 5.a)
   solidus_support
   sprockets-rails

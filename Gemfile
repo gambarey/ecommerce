@@ -98,3 +98,9 @@ end
 gem "solidus_stripe", "~> 5.a"
 
 gem "solidus_admin", ">= 0.2"
+
+gem 'solidus_i18n'
+gem 'rails-i18n'
+gem 'kaminari-i18n'
+
+gem 'routing-filter'

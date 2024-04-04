@@ -62,7 +62,7 @@
   .checkbox-input {
     @apply flex items-center gap-x-2
   }
-  
+
   input[type=checkbox] {
     @apply text-black rounded dark:checked:invert;
   }
