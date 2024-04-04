@@ -15,13 +15,7 @@
       </div>
     </div>
 
-    <div class="relative w-6 h-6">
-      <%= link_to spree_current_user ? account_path : login_path, title: spree_current_user ? 'Account' : 'Login' do %>
-        <svg class='w-6 h-6 fill-black dark:fill-white'>
-          <use xlink:href="<%= image_path('remixicon.symbol.svg') %>#ri-user-line"></use>
-        </svg>
-      <% end %>
-    </div>
+ 
     <div class="relative hidden lg:flex">
 
     </div>
