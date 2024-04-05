@@ -18,6 +18,8 @@ require "action_cable/engine"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# Dotenv::Rails
+
 module Ecommerce2
   class Application < Rails::Application
     if defined?(FactoryBotRails)

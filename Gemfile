@@ -104,3 +104,5 @@ gem 'rails-i18n'
 gem 'kaminari-i18n'
 
 gem 'routing-filter'
+
+# gem 'dotenv-rails', groups: [:development, :test]
